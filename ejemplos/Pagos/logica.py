@@ -1,6 +1,6 @@
 from datos import guardar_pago, obtener_pagos
 
-def registrar_pago(rut, fecha, monto, lugar):
+def registrar_pago(rut:str, fecha:str, monto:str, lugar:str):
     """
     Valida los datos y registra un nuevo pago.
     Retorna una tupla (booleano, mensaje) indicando éxito o error.
